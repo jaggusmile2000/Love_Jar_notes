@@ -131,9 +131,9 @@
 </head>
 
 <body>
-  <!-- Music button (optional: save a song as song.mp3 in the same folder) -->
+  <!-- Music button (optional: save a song as song.mp4a in the same folder) -->
   <button class="music-button" id="musicButton" onclick="toggleMusic()">🎵</button>
-  <audio id="song" src="song.mp3" loop></audio>
+  <audio id="song" src="tum_ko_paya_hai.mp4a" loop></audio>
 
   <!-- ========== STEP 2: HTML (what is ON the page) ========== -->
   <div class="wrap">
@@ -274,10 +274,6 @@
     var SECRET_WORD = "i love you"; // the password (any capital letters work too)
     // ---------------------------------
 
-    // Put her name in the title (only if you typed one)
-    if (HER_NAME !== "") {
-      document.getElementById("title").textContent = HER_NAME + "'s Love Jar 💗";
-    }
 
     // Opens the note you tapped and closes all the others
     function openNote(button) {
